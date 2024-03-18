@@ -23,10 +23,6 @@ import {SelectButtonModule} from 'primeng/selectbutton';
 import {MenubarModule} from 'primeng/menubar';
 import {CheckboxModule} from 'primeng/checkbox';
 
-import dayGridPlugin from '@fullcalendar/daygrid'; // a plugin
-import interactionPlugin from '@fullcalendar/interaction'; // a plugin
-import timeGridPlugin from '@fullcalendar/timegrid';
-
 import { FullCalendarModule } from '@fullcalendar/angular';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AnswerPollComponent } from './answer-poll/answer-poll.component';
@@ -41,11 +37,6 @@ import { ModalPollClosComponent } from './modal-poll-clos/modal-poll-clos.compon
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ShowCommentsComponent } from './show-comments/show-comments.component';
 registerLocaleData(localeFr, 'fr');
-FullCalendarModule.registerPlugins([ // register FullCalendar plugins
-  dayGridPlugin,
-  interactionPlugin,
-  timeGridPlugin
-]);
 @NgModule({
   declarations: [
     AppComponent,
