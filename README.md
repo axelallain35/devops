@@ -104,6 +104,12 @@ Amplified instruction coverage: 34 / 34
 ### Conclusion Dspot
 En automatisant la génération de cas de test pour les programmes Java. Les équipes DevOps peuvent accélérer la validation du code tout en améliorant sa qualité. En identifiant automatiquement les zones à risque et en produisant des tests pertinents, Dspot permet une couverture de test plus complète, réduisant ainsi les régressions. Cela favorise une culture DevOps axée sur l'automatisation, la collaboration et la livraison plus rapide.
 
-## Feedbacks
+## Conclusion Générale  
+La mise en place des outils de Continuous Integration (CI), d'analyse statique et d'automatisation des tests constitue une étape importante dans l'amélioration du processus de développement logiciel. Tout au long de ce tutoriel, nous avons exploré différentes solutions telles que Scott Test reporter, Pitest et Dspot, chacune apportant sa contribution à l'objectif d'assurer la qualité, la fiabilité et l'efficacité des logiciels.
+
+Scott Test reporter offre une visibilité claire sur les résultats des tests unitaires, permettant aux équipes de développement de détecter rapidement les défauts de code et de les corriger avant qu'ils ne progressent dans le processus de déploiement. Pitest, quant à lui, renforce la qualité des tests automatisés en identifiant les zones de faiblesse des suites de tests, ce qui permet d'améliorer la robustesse du code. Enfin, Dspot automatise la génération de cas de test pour les programmes Java, accélérant ainsi la validation du code et améliorant sa qualité en identifiant automatiquement les zones à risque et en produisant des tests pertinents.
+
+En conclusion, en combinant ces outils au sein d'un environnement DevOps, les équipes DevOps peuvent créer un processus agile favorisant la livraison rapide de logiciels de haute qualité. Cette approche contribue à réduire les risques liés aux modifications, à renforcer la confiance dans les déploiements automatisés et à répondre aux besoins  des utilisateurs.
+
 
 </div>
